@@ -38,3 +38,12 @@ Criar service:
 ng generate service
 
 encurtado: `ng g s [nome da pasta/nome do service]`
+
+criar componente:
+ng generate componnent
+
+encurtado:
+'ng g c [nome da pasta/nome do componente]'
+
+
+[Repositorio instrutor](https://github.com/CrislaineLuana/ListaDeTarefasAngular)

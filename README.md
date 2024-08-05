@@ -28,7 +28,13 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Comandos:
 
+Iniciar servidor angular:
+'ng server'
+
+Iniciar servidor json:
+'json-server --watch db.json'
+
 Criar service:
 ng generate service
 
-encurtado: ng g s [nome da pasta/nome do service]
+encurtado: `ng g s [nome da pasta/nome do service]`

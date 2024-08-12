@@ -29,7 +29,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Comandos:
 
 Iniciar servidor angular:
-'ng server'
+'ng serve'
 
 Iniciar servidor json:
 'json-server --watch db.json'
@@ -46,4 +46,4 @@ encurtado:
 'ng g c [nome da pasta/nome do componente]'
 
 
-[Repositorio instrutor](https://github.com/CrislaineLuana/ListaDeTarefasAngular)
+[Repositorio instrutor](https://github.com/CrislaineLuana/ListaDeTarefasAngular)json-server --watch db.json

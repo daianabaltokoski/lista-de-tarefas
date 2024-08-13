@@ -46,4 +46,4 @@ encurtado:
 'ng g c [nome da pasta/nome do componente]'
 
 
-[Repositorio instrutor](https://github.com/CrislaineLuana/ListaDeTarefasAngular)json-server --watch db.json
+[Repositorio instrutor](https://github.com/CrislaineLuana/ListaDeTarefasAngular)

@@ -1,11 +1,13 @@
 import { Component, EventEmitter, Output } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { Tarefa } from '../../../Tarefa';
+import { ButtonComponent } from '../button/button.component';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-add-task',
   standalone: true,
-  imports: [FormsModule],
+  imports: [FormsModule, ButtonComponent, CommonModule],
   templateUrl: './add-task.component.html',
   styleUrl: './add-task.component.css'
 })
@@ -15,6 +17,11 @@ export class AddTaskComponent {
   tarefa: string = '';
   categoria: string = '';
   concluido: boolean = false;
+  mostrarAddTarefa: boolean = false;
+
+  AlteraVisualizacao(valor: boolean){
+    this.mostrarAddTarefa = valor;
+  }
 
   onSubmit(){
     if(!this.tarefa) {

@@ -31,6 +31,11 @@ export class TasksComponent implements OnInit {
         (this.tarefas = this.tarefas.filter((t) => t.id != tarefa.id)));
     }
 
+    toggleConcluido(tarefa: Tarefa){
+      tarefa.concluido = !tarefa.concluido;
+      this.taskService.updateTask(tarefa).subscribe();
+    }
+
   }
 
 

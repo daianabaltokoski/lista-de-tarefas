@@ -29,7 +29,7 @@ export class TasksComponent implements OnInit {
 
   AddTask(tarefa: Tarefa){
     this.taskService.addTask(tarefa).subscribe((tarefa) => {
-      this.tarefas.push(tarefa);  
+      this.tarefas.unshift(tarefa);  
     });
   }
 
